@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body, 
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    background-image: url("../img/bg.jpg");
+    padding: 3rem 11rem;
+}
+
+/* Navigation */
+
+nav{
+    padding: 0 1.5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul li:not( :last-child ){
+    list-style: none;
+    display: inline-block;
+    margin-right: .9rem;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(151,87,89);
+}
+a:hover{
+    color: red;
+}
+
+nav a {
+    font-weight: 700;
+}
+
+nav a:hover{
+    border-top: .2rem solid red;
+}
+
+
+/* Main Content */
+
+main{
+    background-color: rgba(255, 255, 255, 0.706);
+    padding: 2rem 15rem .8rem 15rem;
+    margin-bottom: 2rem;
+}
+
+section{
+    margin-bottom: 5rem;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+    font-size: 7rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    letter-spacing: 1rem;;
+}
+
+h2{
+    margin-bottom: 1.8rem;
+}
+
+article a{
+    display: inline-block;
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    margin: 1.8rem 0 .8rem 0;
+}
+
+article p.a-text{
+    line-height: 2rem;
+}
+
+article a:hover{
+    border-bottom: .2rem solid red;
+}
+
+.author{
+    margin: 0 0 1.8rem 2rem;
+}
+
+.em{
+    font-style: italic;
+    font-weight: 700;
+}
+
+.r-border{
+    padding-left: 1rem;
+    border-left: .1rem solid #777;
+}
+
+/* Footer */
+
+footer h3{
+    background-color: rgba(119, 119, 119, 0.671);
+    text-align: center;
+    padding: 3rem;
+    font-size: 3.2rem;
+}
+
+footer h3 a:hover{
+   border-bottom: .2rem solid red;
+}
